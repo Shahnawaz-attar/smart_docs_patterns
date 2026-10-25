@@ -1,0 +1,73 @@
+# ── Environments & Secrets ──
+.env
+.env.*
+*.env
+!.env.example
+
+# ── Virtual Environments ──
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Python Cache & Bytecode ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Databases & Vector Stores ──
+chroma_data/
+.chroma/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Testing & Type Checking ──
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ── IDEs & Editors ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ── OS & Temp Files ──
+.DS_Store
+Thumbs.db
+tmp/
+temp/
+*.log
